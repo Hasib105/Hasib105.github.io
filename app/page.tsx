@@ -27,7 +27,7 @@ export default function HomePage() {
       <About />
       <Skills />
       <Built />
-      <GithubActivity />
+      {/* <GithubActivity /> */}
       <Projects />
       <ContactCta />
     </>

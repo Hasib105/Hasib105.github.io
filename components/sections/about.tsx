@@ -6,27 +6,22 @@ import { profileSettings, resumeSettings } from "@/lib/content/settings";
 
 const HIGHLIGHTS = [
   {
-    icon: "🔭",
     label: "Focus",
     text: "High-performance Python backends, Computer Vision systems, and multimodal AI pipelines.",
   },
   {
-    icon: "👁️",
     label: "Computer Vision & ML",
     text: "Object Detection (YOLO), Image Classification, OpenCV processing, PyTorch, and Hugging Face Transformers.",
   },
   {
-    icon: "🎙️",
     label: "Speech & Audio",
     text: "End-to-end Speech-to-Text (Whisper STT) and Text-to-Speech (TTS) synthesis workflows.",
   },
   {
-    icon: "⚡",
     label: "Backend & Distributed Systems",
     text: "FastAPI, Django REST Framework, Asyncio, Celery, Redis, and strict typing (Pydantic v2, Mypy).",
   },
   {
-    icon: "💬",
     label: "Ask me about",
     text: "Vision model inference, Python concurrency, agentic workflows, FastAPI system design, real-time video/audio processing.",
   },
@@ -64,7 +59,7 @@ export function About() {
               <div className="mt-8 border-line-faint bg-raise/50 divide-line-faint divide-y rounded-2xl border backdrop-blur-sm">
                 {HIGHLIGHTS.map((item) => (
                   <div key={item.label} className="p-4 sm:p-5 flex items-start gap-3.5">
-                    <span className="text-lg shrink-0 mt-0.5">{item.icon}</span>
+                    <span className="mono-label text-accent text-xs shrink-0 mt-0.5">→</span>
                     <p className="mono-body text-xs sm:text-sm text-ink-dim leading-relaxed">
                       <strong className="text-ink font-medium">{item.label}:</strong> {item.text}
                     </p>

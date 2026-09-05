@@ -3,16 +3,6 @@ import { Tag } from "@/components/ui/tag";
 import { Reveal } from "@/components/reveal";
 import { skillsSettings } from "@/lib/content/settings";
 
-const CATEGORY_ICONS: Record<string, string> = {
-  "Core Python & Concurrency": "🐍",
-  "Computer Vision & Machine Learning": "👁️",
-  "Speech & Audio AI (TTS / STT)": "🎙️",
-  "Deep Learning, Transformers & AI Agents": "🧠",
-  "Web & API Frameworks": "⚡",
-  "Databases, ORM & Vector Search": "💾",
-  "DevOps, Infrastructure & Tooling": "☁️",
-};
-
 export function Skills() {
   return (
     <section id="arsenal" className="relative scroll-mt-24">
@@ -43,14 +33,9 @@ export function Skills() {
             >
               <div>
                 <div className="mb-4 flex items-center justify-between">
-                  <div className="flex items-center gap-2.5">
-                    <span className="text-xl shrink-0">
-                      {CATEGORY_ICONS[group.category] || "⚡"}
-                    </span>
-                    <h4 className="font-display text-ink text-base font-medium">
-                      {group.category}
-                    </h4>
-                  </div>
+                  <h4 className="font-display text-ink text-base font-medium">
+                    {group.category}
+                  </h4>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-4">
                   {group.skills.map((skill) => (
