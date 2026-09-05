@@ -1,0 +1,55 @@
+# Hasib Ahmad Bhuyan
+
+> I am a Python Software Engineer & Applied AI/ML Developer focused on building robust backend architectures, Computer Vision pipelines, and intelligent multi-modal systems. I bridge the gap between production software engineering and applied machine learning — developing scalable microservices with FastAPI & Django, implementing real-time vision pipelines with OpenCV & YOLO, deploying Transformers for NLP & vision tasks, and orchestrating stateful Agentic workflows & Speech AI (TTS/STT).
+
+- Role: Python Software Engineer & Applied AI/ML Developer
+- Location: Uttara, Dhaka, Bangladesh
+- Email: hasibahmed1729@gmail.com
+- Website: https://hasib105.github.io
+- GitHub: https://github.com/Hasib105
+- LinkedIn: https://www.linkedin.com/in/hasib-ahmed-517994199/
+
+## Capabilities
+
+- **Multi-agent systems & autonomous orchestration** — Agent workflows that survive contact with production — LLM orchestration, supervisor–worker routing, stateful PostgreSQL checkpointers, Qdrant vector retrieval, and human-in-the-loop checkpoints.
+- **Go systems & CLI infrastructure** — High-concurrency daemons, network collectors, and developer tooling — native Go CLI applications, OpenSSH config generators, Ed25519 cryptography, and OS credential vault integrations.
+- **Real-time speech AI & media pipelines** — Low-latency continuous audio and video workflows — Faster-Whisper streaming over WebSockets, automated video and reel synthesis (Remotion, FFmpeg), and OpenCV computer vision models.
+- **Distributed Python backends & APIs** — Maintainable, production-ready microservices that scale — FastAPI, Django, Django Ninja, Celery distributed task queues, async I/O, on PostgreSQL and Redis.
+
+## Selected work
+
+- [The Noruva AI — AI Assistant](https://hasib105.github.io/work/noruva-ai-assistant.md) (2025—26, Real-Time Conversational AI): A real-time meeting and interview intelligence copilot — live audio transcription, resume-personalized context synthesis, an invisible desktop overlay, and low-latency WebSocket streaming.
+- [Torii Immigration](https://hasib105.github.io/work/torii-immigration.md) (2025—26, Legal Tech & Form Automation): A guided form-preparation platform for immigration — conversational intake, dynamic eligibility evaluation, auto-filled government forms, and official legal source citations.
+- [Sightline](https://hasib105.github.io/work/sightline.md) (2025—26, AI Video & Exam Integrity): An AI-powered exam-integrity review and academic risk platform — automated exam-video analysis, suspicious-event detection with timestamped evidence frames, and at-risk student identification.
+- [Oppora.ai](https://hasib105.github.io/work/oppora-ai.md) (2025—26, AI Sales Automation): An AI-powered sales-automation SaaS built with Django and FastAPI — intelligent automation workflows, multi-model LLM integrations, and production backend services that turn outbound into a system you operate.
+- [SailorSearch](https://hasib105.github.io/work/sailor-search.md) (2025—26, AI Search): A search API designed for agents, RAG pipelines, and deep research — it returns clean markdown with enrichment, token compression, and source-aware outputs, so agents get dense, attributable context instead of raw HTML.
+- [Production Tracking System](https://hasib105.github.io/work/protrac.md) (2025, Real-Time Systems): A real-time production-monitoring system with predictive analytics and automated bottleneck detection — replacing day-late manual reporting with live signals for operational and management teams.
+- [AI Interview Agent](https://hasib105.github.io/work/interview-agent.md) (2025—26, Conversational AI): A conversational AI system for interview simulation — it runs a live interview and returns real-time structured scoring and feedback, turning an open-ended conversation into measurable, comparable signal.
+- [Heimdall](https://hasib105.github.io/work/heimdall.md) (2025—26, AI Marketing Automation): An end-to-end AI marketing-automation platform — research, planning, and execution driven by agentic multi-step workflows, with humans staying in control of what actually ships.
+
+## Experience
+
+- Autonomous AI & Multi-Agent Systems — Lead Architect & Systems Engineer (2025 – Present)
+- High-Performance Go Systems & Tooling — Go Systems Developer (2024 – Present)
+- Real-Time Audio, Speech & Vision AI — Applied ML & Streaming Engineer (2024 – 2025)
+- Distributed Python Backend & API Platforms — Python Backend Engineer (2023 – 2025)
+
+## Skills
+
+- Core Python & Concurrency: Python, Asyncio, Pydantic, Pytest, Celery, Poetry, Mypy
+- Computer Vision & Machine Learning: OpenCV, YOLO, PyTorch, Torchvision, Image Classification, scikit-learn, NumPy
+- Speech & Audio AI (TTS / STT): Whisper STT, TTS, FFmpeg, Audio Processing
+- Deep Learning, Transformers & AI Agents: Transformers, LangGraph, CrewAI, LangChain, OpenAI, Anthropic, Hugging Face
+- Web & API Frameworks: FastAPI, Django, Django REST Framework, Starlette, Uvicorn, WebSockets
+- Databases, ORM & Vector Search: PostgreSQL, Redis, SQLAlchemy, Alembic, ChromaDB, Pinecone, Milvus, SQLite
+- DevOps, Infrastructure & Tooling: Docker, Linux, Nginx, Git, GitHub Actions, Postman
+
+## Writing
+
+- [Architecting Production-Ready Agentic and Computer Vision Pipelines](https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines.md) (2025-01-15): Practical architectural patterns for stateful multi-agent systems, real-time vision inference, and resilient RAG workflows.
+
+## Pages
+
+- [About](https://hasib105.github.io/about): background, toolbox, and FAQ
+- [Resume](https://hasib105.github.io/resume): full experience, education, languages
+- [Work](https://hasib105.github.io/work): all case studies

@@ -1,0 +1,32 @@
+# Heimdall
+
+> An end-to-end AI marketing-automation platform — research, planning, and execution driven by agentic multi-step workflows, with humans staying in control of what actually ships.
+
+- Canonical: https://hasib105.github.io/work/heimdall
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Marketing Automation
+- Stack: Django, FastAPI, PostgreSQL, Redis, Celery, LangGraph
+- Pipeline: Research → plan → execute
+- Orchestration: Agentic multi-step workflows
+- heimdall.social: https://heimdall.social
+
+Heimdall is a fully AI-based marketing-automation platform: campaigns
+researched, planned, and executed with agentic multi-step workflows, and
+humans kept in the loop on the decisions that matter. I built the backend
+that makes those workflows dependable enough to run unattended.
+
+## Generation with guardrails
+
+Marketing automation fails in a specific way — unsupervised generation at
+scale produces content nobody should publish. Heimdall's pipeline runs as
+inspectable stages: research, planning, content generation, and assisted
+execution, with the expensive, irreversible steps sitting behind a
+human-in-the-loop checkpoint.
+
+## The platform underneath
+
+Heimdall runs on Django and FastAPI with PostgreSQL, Redis, and Celery for
+background processing. The agentic layer is orchestrated with LangGraph so
+each step is an explicit, observable node rather than a black box — the
+difference between a demo and something a team trusts with its outbound.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hasib Ahmad Bhuyan — Python &amp; Go Systems Engineer, Agentic AI</title>
+  <subtitle>Software Engineer specializing in scalable API platforms, distributed microservices, and production-grade Agentic AI systems in Python and Go.</subtitle>
+  <link href="https://hasib105.github.io/feed.xml" rel="self"/>
+  <link href="https://hasib105.github.io"/>
+  <id>https://hasib105.github.io/</id>
+  <updated>2025-01-15T00:00:00.000Z</updated>
+  <author>
+    <name>Hasib Ahmad Bhuyan</name>
+    <email>hasibahmed1729@gmail.com</email>
+  </author>
+  <entry>
+    <title>Architecting Production-Ready Agentic and Computer Vision Pipelines</title>
+    <link href="https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines"/>
+    <id>https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines</id>
+    <published>2025-01-15T00:00:00.000Z</published>
+    <updated>2025-01-15T00:00:00.000Z</updated>
+    <summary>Practical architectural patterns for stateful multi-agent systems, real-time vision inference, and resilient RAG workflows.</summary>
+  </entry>
+</feed>

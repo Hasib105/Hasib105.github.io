@@ -1,0 +1,30 @@
+# Sightline
+
+> An AI-powered exam-integrity review and academic risk platform — automated exam-video analysis, suspicious-event detection with timestamped evidence frames, and at-risk student identification.
+
+- Canonical: https://hasib105.github.io/work/sightline
+- Role: Backend & AI Engineer
+- Year: 2025—26
+- Category: AI Video & Exam Integrity
+- Stack: Django, Python, Next.js, Celery, PostgreSQL, Redis, Computer Vision, Docker
+- Analysis: Timestamped Video Evidence
+- Stack: Django · Celery · Next.js
+- GitHub: https://github.com/Hasib105/sightline
+
+Ensuring academic integrity during remote and hybrid assessments requires reviewing hours of recorded video footage without burdening proctors and educational faculty. I engineered **Sightline** as an end-to-end platform that automates video analysis, pinpoints anomalous events, and flags academically at-risk students before the semester concludes.
+
+## Video analysis and evidence flagging
+
+Rather than issuing unverified automated verdicts, Sightline acts as an investigative assistant for proctors and invigilators:
+
+- **Asynchronous Video Pipeline**: Uploaded exam recordings are processed asynchronously using **Celery workers** and Redis message brokers, extracting temporal video segments and keyframes.
+- **Suspicious-Event Detection**: Computer vision and audio models detect anomalous events — such as multiple persons in frame, gaze deviations, or unauthorized device usage.
+- **Timestamped Evidence References**: Invigilators receive an interactive timeline highlighting suspicious events annotated with exact timestamps, model confidence scores, and frame clips to confirm or dismiss with full human agency.
+
+## Academic intervention and resilient architecture
+
+The platform pairs exam integrity review with early student support:
+
+- **At-Risk Student Identification**: Analyzes student performance trends and submission flags to alert educators to struggling students well before final grading deadlines.
+- **Production-Ready Architecture**: Powered by a robust Django API, PostgreSQL relational persistence, and a responsive Next.js frontend, coordinated via Docker Compose and nginx reverse proxies.
+- **Automated CI/CD**: Containerized deployments automated via GitHub Actions pipelines with automated schema migrations and model warmup routines.

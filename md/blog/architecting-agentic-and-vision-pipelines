@@ -1,0 +1,21 @@
+# Architecting Production-Ready Agentic and Computer Vision Pipelines
+
+> Practical architectural patterns for stateful multi-agent systems, real-time vision inference, and resilient RAG workflows.
+
+- Canonical: https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines
+- Published: 2025-01-15
+- Tags: Agentic AI, Computer Vision, Backend Architecture
+- Author: Hasib Ahmad Bhuyan (https://hasib105.github.io)
+
+Building AI systems for real-world deployments requires moving beyond simple prompt chains into robust state machines, determinism controls, and low-latency inference pipelines.
+
+## State Machines Over Freeform Prompt Loops
+
+Multi-agent coordination frequently breaks down when agents are allowed to run open-ended conversational loops. Structuring execution as a directed state machine provides deterministic rollback points, bounded cycle counts, and audit trails.
+
+### Checkpointing and Human Verification
+For sensitive business logic, agents must not execute irreversible mutations without persistence checks. Integrating state checkpointers against transactional databases allows agents to halt gracefully and resume immediately upon human verification.
+
+## Real-Time Vision and Multimodal Pipelines
+
+Deploying computer vision models—whether utilizing YOLO for edge object detection or transformer-based visual representations—demands careful pipeline optimization. Decoupling frame ingestion from deep learning inference workers through asynchronous queue buffers ensures high frame throughput without dropping frames.

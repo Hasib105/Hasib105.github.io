@@ -1,0 +1,29 @@
+# The Noruva AI — AI Assistant
+
+> A real-time meeting and interview intelligence copilot — live audio transcription, resume-personalized context synthesis, an invisible desktop overlay, and low-latency WebSocket streaming.
+
+- Canonical: https://hasib105.github.io/work/noruva-ai-assistant
+- Role: AI Systems & Backend Engineer
+- Year: 2025—26
+- Category: Real-Time Conversational AI
+- Stack: FastAPI, Python, Next.js, Electron, Qdrant, WebSockets, PostgreSQL, Redis
+- Latency: Real-Time Stream
+- Client: Invisible Desktop Overlay
+
+High-stakes technical interviews and client discussions require rapid recall and structured articulation. I co-engineered **The Noruva AI Assistant**: an invisible, real-time desktop companion that listens to incoming audio streams, matches discussion context against personal candidate experience, and delivers live suggestions without breaking conversational flow.
+
+## Real-time speech and context retrieval
+
+The backend pipeline is architected for sub-second turnarounds over FastAPI:
+
+- **Streaming Speech-to-Text**: Ingests continuous microphone and system audio channels, performing low-latency speech transcription and sentence segmentation.
+- **Experience-Based Personalization**: Uploaded resumes, project histories, and case studies are parsed and indexed in a **Qdrant vector store**. Incoming questions trigger semantic similarity lookups so suggestions draw directly from genuine candidate accomplishments.
+- **LLM Context Synthesis**: Synthesizes structured, concise talking points and code outlines calibrated to the speaker's background, avoiding generic or hallucinated answers.
+
+## Invisible desktop interface & privacy engineering
+
+The client experience is engineered across Next.js and Electron:
+
+- **Undetectable Desktop Overlay**: An Electron overlay application renders real-time suggestions atop video meeting platforms (Zoom, Google Meet, Microsoft Teams) with click-through transparency and configurable opacity.
+- **Bidirectional WebSocket Backbone**: Streaming tokens flow directly from the FastAPI backend to the desktop renderer with minimal compute overhead.
+- **Zero-Retention Security**: Designed with end-to-end privacy guarantees, including configurable automatic transcript purge schedules and an ephemeral zero-retention mode for confidential meetings.

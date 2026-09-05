@@ -1,0 +1,32 @@
+# SailorSearch
+
+> A search API designed for agents, RAG pipelines, and deep research — it returns clean markdown with enrichment, token compression, and source-aware outputs, so agents get dense, attributable context instead of raw HTML.
+
+- Canonical: https://hasib105.github.io/work/sailor-search
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Search
+- Stack: FastAPI, PostgreSQL, Redis, Celery, RAG
+- Output: Clean, source-aware markdown
+- Designed for: Agents & deep research
+- sailorsearch.dev: https://sailorsearch.dev
+
+SailorSearch is a search API built for a new kind of consumer: not a human
+scanning links, but an agent assembling context under a token budget. That
+single constraint shapes everything about how it returns results.
+
+## Search as an agent interface
+
+I designed the API around three ideas. **Clean markdown** — pages arrive as
+structured, readable markdown with enrichment instead of boilerplate-laden
+HTML. **Token compression** — results are condensed toward what an agent
+actually needs, because every wasted token in a context window is paid for in
+quality and cost downstream. **Source-aware outputs** — every claim stays
+attributable to where it came from, which is what makes the result safe to
+cite in RAG and deep-research workloads.
+
+## Built to scale
+
+SailorSearch runs on FastAPI with PostgreSQL and Redis, using Celery for the
+crawl, extract, and compress stages so they scale independently of the query
+path — fast responses up front, heavy work in the background.

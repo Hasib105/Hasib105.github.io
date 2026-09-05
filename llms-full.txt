@@ -1,0 +1,350 @@
+# Hasib Ahmad Bhuyan
+
+> I am a Python Software Engineer & Applied AI/ML Developer focused on building robust backend architectures, Computer Vision pipelines, and intelligent multi-modal systems. I bridge the gap between production software engineering and applied machine learning — developing scalable microservices with FastAPI & Django, implementing real-time vision pipelines with OpenCV & YOLO, deploying Transformers for NLP & vision tasks, and orchestrating stateful Agentic workflows & Speech AI (TTS/STT).
+
+- Role: Python Software Engineer & Applied AI/ML Developer
+- Location: Uttara, Dhaka, Bangladesh
+- Email: hasibahmed1729@gmail.com
+- Website: https://hasib105.github.io
+- GitHub: https://github.com/Hasib105
+- LinkedIn: https://www.linkedin.com/in/hasib-ahmed-517994199/
+
+## Capabilities
+
+- **Multi-agent systems & autonomous orchestration** — Agent workflows that survive contact with production — LLM orchestration, supervisor–worker routing, stateful PostgreSQL checkpointers, Qdrant vector retrieval, and human-in-the-loop checkpoints.
+- **Go systems & CLI infrastructure** — High-concurrency daemons, network collectors, and developer tooling — native Go CLI applications, OpenSSH config generators, Ed25519 cryptography, and OS credential vault integrations.
+- **Real-time speech AI & media pipelines** — Low-latency continuous audio and video workflows — Faster-Whisper streaming over WebSockets, automated video and reel synthesis (Remotion, FFmpeg), and OpenCV computer vision models.
+- **Distributed Python backends & APIs** — Maintainable, production-ready microservices that scale — FastAPI, Django, Django Ninja, Celery distributed task queues, async I/O, on PostgreSQL and Redis.
+
+## Selected work
+
+- [The Noruva AI — AI Assistant](https://hasib105.github.io/work/noruva-ai-assistant.md) (2025—26, Real-Time Conversational AI): A real-time meeting and interview intelligence copilot — live audio transcription, resume-personalized context synthesis, an invisible desktop overlay, and low-latency WebSocket streaming.
+- [Torii Immigration](https://hasib105.github.io/work/torii-immigration.md) (2025—26, Legal Tech & Form Automation): A guided form-preparation platform for immigration — conversational intake, dynamic eligibility evaluation, auto-filled government forms, and official legal source citations.
+- [Sightline](https://hasib105.github.io/work/sightline.md) (2025—26, AI Video & Exam Integrity): An AI-powered exam-integrity review and academic risk platform — automated exam-video analysis, suspicious-event detection with timestamped evidence frames, and at-risk student identification.
+- [Oppora.ai](https://hasib105.github.io/work/oppora-ai.md) (2025—26, AI Sales Automation): An AI-powered sales-automation SaaS built with Django and FastAPI — intelligent automation workflows, multi-model LLM integrations, and production backend services that turn outbound into a system you operate.
+- [SailorSearch](https://hasib105.github.io/work/sailor-search.md) (2025—26, AI Search): A search API designed for agents, RAG pipelines, and deep research — it returns clean markdown with enrichment, token compression, and source-aware outputs, so agents get dense, attributable context instead of raw HTML.
+- [Production Tracking System](https://hasib105.github.io/work/protrac.md) (2025, Real-Time Systems): A real-time production-monitoring system with predictive analytics and automated bottleneck detection — replacing day-late manual reporting with live signals for operational and management teams.
+- [AI Interview Agent](https://hasib105.github.io/work/interview-agent.md) (2025—26, Conversational AI): A conversational AI system for interview simulation — it runs a live interview and returns real-time structured scoring and feedback, turning an open-ended conversation into measurable, comparable signal.
+- [Heimdall](https://hasib105.github.io/work/heimdall.md) (2025—26, AI Marketing Automation): An end-to-end AI marketing-automation platform — research, planning, and execution driven by agentic multi-step workflows, with humans staying in control of what actually ships.
+
+## Experience
+
+- Autonomous AI & Multi-Agent Systems — Lead Architect & Systems Engineer (2025 – Present)
+- High-Performance Go Systems & Tooling — Go Systems Developer (2024 – Present)
+- Real-Time Audio, Speech & Vision AI — Applied ML & Streaming Engineer (2024 – 2025)
+- Distributed Python Backend & API Platforms — Python Backend Engineer (2023 – 2025)
+
+## Skills
+
+- Core Python & Concurrency: Python, Asyncio, Pydantic, Pytest, Celery, Poetry, Mypy
+- Computer Vision & Machine Learning: OpenCV, YOLO, PyTorch, Torchvision, Image Classification, scikit-learn, NumPy
+- Speech & Audio AI (TTS / STT): Whisper STT, TTS, FFmpeg, Audio Processing
+- Deep Learning, Transformers & AI Agents: Transformers, LangGraph, CrewAI, LangChain, OpenAI, Anthropic, Hugging Face
+- Web & API Frameworks: FastAPI, Django, Django REST Framework, Starlette, Uvicorn, WebSockets
+- Databases, ORM & Vector Search: PostgreSQL, Redis, SQLAlchemy, Alembic, ChromaDB, Pinecone, Milvus, SQLite
+- DevOps, Infrastructure & Tooling: Docker, Linux, Nginx, Git, GitHub Actions, Postman
+
+## Writing
+
+- [Architecting Production-Ready Agentic and Computer Vision Pipelines](https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines.md) (2025-01-15): Practical architectural patterns for stateful multi-agent systems, real-time vision inference, and resilient RAG workflows.
+
+## Pages
+
+- [About](https://hasib105.github.io/about): background, toolbox, and FAQ
+- [Resume](https://hasib105.github.io/resume): full experience, education, languages
+- [Work](https://hasib105.github.io/work): all case studies
+
+---
+
+# The Noruva AI — AI Assistant
+
+> A real-time meeting and interview intelligence copilot — live audio transcription, resume-personalized context synthesis, an invisible desktop overlay, and low-latency WebSocket streaming.
+
+- Canonical: https://hasib105.github.io/work/noruva-ai-assistant
+- Role: AI Systems & Backend Engineer
+- Year: 2025—26
+- Category: Real-Time Conversational AI
+- Stack: FastAPI, Python, Next.js, Electron, Qdrant, WebSockets, PostgreSQL, Redis
+- Latency: Real-Time Stream
+- Client: Invisible Desktop Overlay
+
+High-stakes technical interviews and client discussions require rapid recall and structured articulation. I co-engineered **The Noruva AI Assistant**: an invisible, real-time desktop companion that listens to incoming audio streams, matches discussion context against personal candidate experience, and delivers live suggestions without breaking conversational flow.
+
+## Real-time speech and context retrieval
+
+The backend pipeline is architected for sub-second turnarounds over FastAPI:
+
+- **Streaming Speech-to-Text**: Ingests continuous microphone and system audio channels, performing low-latency speech transcription and sentence segmentation.
+- **Experience-Based Personalization**: Uploaded resumes, project histories, and case studies are parsed and indexed in a **Qdrant vector store**. Incoming questions trigger semantic similarity lookups so suggestions draw directly from genuine candidate accomplishments.
+- **LLM Context Synthesis**: Synthesizes structured, concise talking points and code outlines calibrated to the speaker's background, avoiding generic or hallucinated answers.
+
+## Invisible desktop interface & privacy engineering
+
+The client experience is engineered across Next.js and Electron:
+
+- **Undetectable Desktop Overlay**: An Electron overlay application renders real-time suggestions atop video meeting platforms (Zoom, Google Meet, Microsoft Teams) with click-through transparency and configurable opacity.
+- **Bidirectional WebSocket Backbone**: Streaming tokens flow directly from the FastAPI backend to the desktop renderer with minimal compute overhead.
+- **Zero-Retention Security**: Designed with end-to-end privacy guarantees, including configurable automatic transcript purge schedules and an ephemeral zero-retention mode for confidential meetings.
+
+---
+
+# Torii Immigration
+
+> A guided form-preparation platform for immigration — conversational intake, dynamic eligibility evaluation, auto-filled government forms, and official legal source citations.
+
+- Canonical: https://hasib105.github.io/work/torii-immigration
+- Role: Backend & Systems Engineer
+- Year: 2025—26
+- Category: Legal Tech & Form Automation
+- Stack: FastAPI, Python 3.13, SQLAlchemy 2 Async, PostgreSQL 17, pgvector, Alembic, arq (Redis), Next.js
+- Architecture: Async SQLAlchemy 2 + arq
+- Verification: Official Legal Citations
+
+Navigating visa renewals, status transitions, and immigration filings is fraught with bureaucratic friction and strict legal requirements. **Torii** is a guided immigration form-preparation platform — designed as a reliable "TurboTax for visas" — that guides applicants through the legal process while ensuring strict regulatory compliance.
+
+## Resilient backend architecture
+
+I built the system-of-record API on modern Python 3.13 and FastAPI:
+
+- **Async SQLAlchemy 2 & PostgreSQL 17**: High-concurrency async data access layer handling applicant profiles, case progression, jurisdiction rulesets, and document uploads.
+- **Alembic Schema Evolutions**: Automated migration pipelines managed through `uv`, ensuring database schemas stay synchronized across staging and production environments.
+- **Background Task Scheduling via arq**: An async Redis worker (`arq`) powers background outbox polling, automated renewal date alerts, and government policy change monitors.
+
+## Automated intake and legal compliance
+
+The platform replaces static PDF templates with an active workflow:
+
+- **Conversational Intake Engine**: Evaluates applicant eligibility dynamically based on nationality, travel history, and visa category.
+- **Government Source Citations**: Every generated instruction, required document, and question explicitly references and links to the authoritative government immigration regulation it originates from.
+- **Auto-Populated Form Generation**: Validates field consistency across multiple applications, eliminating redundant manual data entry and preventing contradictory submissions.
+
+---
+
+# Sightline
+
+> An AI-powered exam-integrity review and academic risk platform — automated exam-video analysis, suspicious-event detection with timestamped evidence frames, and at-risk student identification.
+
+- Canonical: https://hasib105.github.io/work/sightline
+- Role: Backend & AI Engineer
+- Year: 2025—26
+- Category: AI Video & Exam Integrity
+- Stack: Django, Python, Next.js, Celery, PostgreSQL, Redis, Computer Vision, Docker
+- Analysis: Timestamped Video Evidence
+- Stack: Django · Celery · Next.js
+- GitHub: https://github.com/Hasib105/sightline
+
+Ensuring academic integrity during remote and hybrid assessments requires reviewing hours of recorded video footage without burdening proctors and educational faculty. I engineered **Sightline** as an end-to-end platform that automates video analysis, pinpoints anomalous events, and flags academically at-risk students before the semester concludes.
+
+## Video analysis and evidence flagging
+
+Rather than issuing unverified automated verdicts, Sightline acts as an investigative assistant for proctors and invigilators:
+
+- **Asynchronous Video Pipeline**: Uploaded exam recordings are processed asynchronously using **Celery workers** and Redis message brokers, extracting temporal video segments and keyframes.
+- **Suspicious-Event Detection**: Computer vision and audio models detect anomalous events — such as multiple persons in frame, gaze deviations, or unauthorized device usage.
+- **Timestamped Evidence References**: Invigilators receive an interactive timeline highlighting suspicious events annotated with exact timestamps, model confidence scores, and frame clips to confirm or dismiss with full human agency.
+
+## Academic intervention and resilient architecture
+
+The platform pairs exam integrity review with early student support:
+
+- **At-Risk Student Identification**: Analyzes student performance trends and submission flags to alert educators to struggling students well before final grading deadlines.
+- **Production-Ready Architecture**: Powered by a robust Django API, PostgreSQL relational persistence, and a responsive Next.js frontend, coordinated via Docker Compose and nginx reverse proxies.
+- **Automated CI/CD**: Containerized deployments automated via GitHub Actions pipelines with automated schema migrations and model warmup routines.
+
+---
+
+# Oppora.ai
+
+> An AI-powered sales-automation SaaS built with Django and FastAPI — intelligent automation workflows, multi-model LLM integrations, and production backend services that turn outbound into a system you operate.
+
+- Canonical: https://hasib105.github.io/work/oppora-ai
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Sales Automation
+- Stack: Django, FastAPI, PostgreSQL, Redis, Celery, LangChain, LangGraph, OpenAI
+- Stack: Django · FastAPI
+- AI layer: Multi-model LLM workflows
+- oppora.ai: https://oppora.ai
+
+Oppora.ai is an AI sales-automation platform: outbound campaigns researched,
+personalized, and executed with AI doing the heavy lifting. I built its
+backend on a foundation of Django, FastAPI, PostgreSQL, Redis, and Celery —
+the kind of maintainable, production-ready architecture that holds up once
+real customers and real volume arrive.
+
+## Automation as a system, not a script
+
+The product is a set of intelligent automation workflows — research,
+enrichment, content generation, and assisted execution — modelled as explicit
+stages rather than one brittle prompt. Background work runs on Celery task
+queues so the API stays responsive while the slow, AI-heavy steps happen out
+of band.
+
+## Multi-model LLM integrations
+
+The AI layer integrates multiple LLM providers so model choice becomes a
+routing decision per task — quality, cost, and failure handling stay tunable
+independently. Orchestration is chained with LangChain and LangGraph, with
+structured output parsing keeping model responses reliable enough to act on
+downstream.
+
+---
+
+# SailorSearch
+
+> A search API designed for agents, RAG pipelines, and deep research — it returns clean markdown with enrichment, token compression, and source-aware outputs, so agents get dense, attributable context instead of raw HTML.
+
+- Canonical: https://hasib105.github.io/work/sailor-search
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Search
+- Stack: FastAPI, PostgreSQL, Redis, Celery, RAG
+- Output: Clean, source-aware markdown
+- Designed for: Agents & deep research
+- sailorsearch.dev: https://sailorsearch.dev
+
+SailorSearch is a search API built for a new kind of consumer: not a human
+scanning links, but an agent assembling context under a token budget. That
+single constraint shapes everything about how it returns results.
+
+## Search as an agent interface
+
+I designed the API around three ideas. **Clean markdown** — pages arrive as
+structured, readable markdown with enrichment instead of boilerplate-laden
+HTML. **Token compression** — results are condensed toward what an agent
+actually needs, because every wasted token in a context window is paid for in
+quality and cost downstream. **Source-aware outputs** — every claim stays
+attributable to where it came from, which is what makes the result safe to
+cite in RAG and deep-research workloads.
+
+## Built to scale
+
+SailorSearch runs on FastAPI with PostgreSQL and Redis, using Celery for the
+crawl, extract, and compress stages so they scale independently of the query
+path — fast responses up front, heavy work in the background.
+
+---
+
+# Production Tracking System
+
+> A real-time production-monitoring system with predictive analytics and automated bottleneck detection — replacing day-late manual reporting with live signals for operational and management teams.
+
+- Canonical: https://hasib105.github.io/work/protrac
+- Role: Tech Lead — Backend
+- Year: 2025
+- Category: Real-Time Systems
+- Stack: Django, FastAPI, PostgreSQL, Redis, Predictive Analytics
+- Reporting: Day-late → real-time
+- Signal: Automated bottleneck detection
+
+Production reporting that arrives a day late is a report about a problem you
+can no longer fix. This system replaced hand-compiled, after-the-fact
+reporting with live signals — architected as a high-reliability production
+monitoring platform.
+
+## Real-time, on the floor
+
+The system tracks production as it runs and surfaces deviation when it starts,
+not the next morning: **automated bottleneck detection** across the line and
+**predictive analytics** that flag where output is trending before it becomes
+a shortfall. Operational and management teams work from the same live picture.
+
+## Architected to operate
+
+I owned the architecture end to end — Django and FastAPI services on
+PostgreSQL with Redis powering the real-time layer — and the data model and
+analytics that turn a stream of floor events into decisions teams can act on
+in the moment.
+
+---
+
+# AI Interview Agent
+
+> A conversational AI system for interview simulation — it runs a live interview and returns real-time structured scoring and feedback, turning an open-ended conversation into measurable, comparable signal.
+
+- Canonical: https://hasib105.github.io/work/interview-agent
+- Role: AI Engineer — Backend
+- Year: 2025—26
+- Category: Conversational AI
+- Stack: FastAPI, LangGraph, OpenAI, Structured Output Parsing, WebSockets
+- Mode: Live conversational interview
+- Output: Real-time structured scoring
+
+An interview is an open-ended conversation, but the value of one is in the
+structure you can pull back out: how a candidate reasoned, where they hesitated,
+what they actually demonstrated. This agent runs the conversation and produces
+that structure in real time.
+
+## Scoring a conversation as it happens
+
+The system conducts a live interview and emits **real-time structured scoring
+and feedback** rather than a single verdict at the end. The hard part is
+reliability — turning free-form model output into a consistent, comparable
+schema — which I handle with structured output parsing so every response maps
+cleanly onto the scoring model.
+
+## Orchestrated, not prompted
+
+The interview flow is orchestrated with LangGraph as explicit stages — ask,
+follow up, evaluate — over a FastAPI backend with a streaming channel for the
+live exchange. Treating the dialogue as a graph keeps it controllable instead
+of letting one long prompt drift.
+
+---
+
+# Heimdall
+
+> An end-to-end AI marketing-automation platform — research, planning, and execution driven by agentic multi-step workflows, with humans staying in control of what actually ships.
+
+- Canonical: https://hasib105.github.io/work/heimdall
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Marketing Automation
+- Stack: Django, FastAPI, PostgreSQL, Redis, Celery, LangGraph
+- Pipeline: Research → plan → execute
+- Orchestration: Agentic multi-step workflows
+- heimdall.social: https://heimdall.social
+
+Heimdall is a fully AI-based marketing-automation platform: campaigns
+researched, planned, and executed with agentic multi-step workflows, and
+humans kept in the loop on the decisions that matter. I built the backend
+that makes those workflows dependable enough to run unattended.
+
+## Generation with guardrails
+
+Marketing automation fails in a specific way — unsupervised generation at
+scale produces content nobody should publish. Heimdall's pipeline runs as
+inspectable stages: research, planning, content generation, and assisted
+execution, with the expensive, irreversible steps sitting behind a
+human-in-the-loop checkpoint.
+
+## The platform underneath
+
+Heimdall runs on Django and FastAPI with PostgreSQL, Redis, and Celery for
+background processing. The agentic layer is orchestrated with LangGraph so
+each step is an explicit, observable node rather than a black box — the
+difference between a demo and something a team trusts with its outbound.
+
+---
+
+# Architecting Production-Ready Agentic and Computer Vision Pipelines
+
+> Practical architectural patterns for stateful multi-agent systems, real-time vision inference, and resilient RAG workflows.
+
+- Canonical: https://hasib105.github.io/blog/architecting-agentic-and-vision-pipelines
+- Published: 2025-01-15
+- Tags: Agentic AI, Computer Vision, Backend Architecture
+- Author: Hasib Ahmad Bhuyan (https://hasib105.github.io)
+
+Building AI systems for real-world deployments requires moving beyond simple prompt chains into robust state machines, determinism controls, and low-latency inference pipelines.
+
+## State Machines Over Freeform Prompt Loops
+
+Multi-agent coordination frequently breaks down when agents are allowed to run open-ended conversational loops. Structuring execution as a directed state machine provides deterministic rollback points, bounded cycle counts, and audit trails.
+
+### Checkpointing and Human Verification
+For sensitive business logic, agents must not execute irreversible mutations without persistence checks. Integrating state checkpointers against transactional databases allows agents to halt gracefully and resume immediately upon human verification.
+
+## Real-Time Vision and Multimodal Pipelines
+
+Deploying computer vision models—whether utilizing YOLO for edge object detection or transformer-based visual representations—demands careful pipeline optimization. Decoupling frame ingestion from deep learning inference workers through asynchronous queue buffers ensures high frame throughput without dropping frames.

@@ -1,0 +1,29 @@
+# Torii Immigration
+
+> A guided form-preparation platform for immigration — conversational intake, dynamic eligibility evaluation, auto-filled government forms, and official legal source citations.
+
+- Canonical: https://hasib105.github.io/work/torii-immigration
+- Role: Backend & Systems Engineer
+- Year: 2025—26
+- Category: Legal Tech & Form Automation
+- Stack: FastAPI, Python 3.13, SQLAlchemy 2 Async, PostgreSQL 17, pgvector, Alembic, arq (Redis), Next.js
+- Architecture: Async SQLAlchemy 2 + arq
+- Verification: Official Legal Citations
+
+Navigating visa renewals, status transitions, and immigration filings is fraught with bureaucratic friction and strict legal requirements. **Torii** is a guided immigration form-preparation platform — designed as a reliable "TurboTax for visas" — that guides applicants through the legal process while ensuring strict regulatory compliance.
+
+## Resilient backend architecture
+
+I built the system-of-record API on modern Python 3.13 and FastAPI:
+
+- **Async SQLAlchemy 2 & PostgreSQL 17**: High-concurrency async data access layer handling applicant profiles, case progression, jurisdiction rulesets, and document uploads.
+- **Alembic Schema Evolutions**: Automated migration pipelines managed through `uv`, ensuring database schemas stay synchronized across staging and production environments.
+- **Background Task Scheduling via arq**: An async Redis worker (`arq`) powers background outbox polling, automated renewal date alerts, and government policy change monitors.
+
+## Automated intake and legal compliance
+
+The platform replaces static PDF templates with an active workflow:
+
+- **Conversational Intake Engine**: Evaluates applicant eligibility dynamically based on nationality, travel history, and visa category.
+- **Government Source Citations**: Every generated instruction, required document, and question explicitly references and links to the authoritative government immigration regulation it originates from.
+- **Auto-Populated Form Generation**: Validates field consistency across multiple applications, eliminating redundant manual data entry and preventing contradictory submissions.

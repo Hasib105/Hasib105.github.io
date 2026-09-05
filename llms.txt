@@ -1,0 +1,26 @@
+# Hasib Ahmad Bhuyan
+
+> Software Engineer specializing in scalable API platforms, distributed microservices, and production-grade Agentic AI systems in Python and Go.
+
+Python Software Engineer & Applied AI/ML Developer. Based in Uttara, Dhaka, Bangladesh, working remotely. Contact: hasibahmed1729@gmail.com.
+
+## Work
+
+- [The Noruva AI — AI Assistant](https://hasib105.github.io/work/noruva-ai-assistant.md): A real-time meeting and interview intelligence copilot — live audio transcription, resume-personalized context synthesis, an invisible desktop overlay, and low-latency WebSocket streaming.
+- [Torii Immigration](https://hasib105.github.io/work/torii-immigration.md): A guided form-preparation platform for immigration — conversational intake, dynamic eligibility evaluation, auto-filled government forms, and official legal source citations.
+- [Sightline](https://hasib105.github.io/work/sightline.md): An AI-powered exam-integrity review and academic risk platform — automated exam-video analysis, suspicious-event detection with timestamped evidence frames, and at-risk student identification.
+- [Oppora.ai](https://hasib105.github.io/work/oppora-ai.md): An AI-powered sales-automation SaaS built with Django and FastAPI — intelligent automation workflows, multi-model LLM integrations, and production backend services that turn outbound into a system you operate.
+- [SailorSearch](https://hasib105.github.io/work/sailor-search.md): A search API designed for agents, RAG pipelines, and deep research — it returns clean markdown with enrichment, token compression, and source-aware outputs, so agents get dense, attributable context instead of raw HTML.
+- [Production Tracking System](https://hasib105.github.io/work/protrac.md): A real-time production-monitoring system with predictive analytics and automated bottleneck detection — replacing day-late manual reporting with live signals for operational and management teams.
+- [AI Interview Agent](https://hasib105.github.io/work/interview-agent.md): A conversational AI system for interview simulation — it runs a live interview and returns real-time structured scoring and feedback, turning an open-ended conversation into measurable, comparable signal.
+- [Heimdall](https://hasib105.github.io/work/heimdall.md): An end-to-end AI marketing-automation platform — research, planning, and execution driven by agentic multi-step workflows, with humans staying in control of what actually ships.
+
+## Pages
+
+- [Site index](https://hasib105.github.io/index.md): full profile, experience, and skills as markdown
+- [About](https://hasib105.github.io/about): background and FAQ
+- [Resume](https://hasib105.github.io/resume): full work history
+
+## Optional
+
+- [Full content](https://hasib105.github.io/llms-full.txt): everything on this site as a single markdown document

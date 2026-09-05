@@ -1,0 +1,34 @@
+# Oppora.ai
+
+> An AI-powered sales-automation SaaS built with Django and FastAPI — intelligent automation workflows, multi-model LLM integrations, and production backend services that turn outbound into a system you operate.
+
+- Canonical: https://hasib105.github.io/work/oppora-ai
+- Role: Backend Engineer
+- Year: 2025—26
+- Category: AI Sales Automation
+- Stack: Django, FastAPI, PostgreSQL, Redis, Celery, LangChain, LangGraph, OpenAI
+- Stack: Django · FastAPI
+- AI layer: Multi-model LLM workflows
+- oppora.ai: https://oppora.ai
+
+Oppora.ai is an AI sales-automation platform: outbound campaigns researched,
+personalized, and executed with AI doing the heavy lifting. I built its
+backend on a foundation of Django, FastAPI, PostgreSQL, Redis, and Celery —
+the kind of maintainable, production-ready architecture that holds up once
+real customers and real volume arrive.
+
+## Automation as a system, not a script
+
+The product is a set of intelligent automation workflows — research,
+enrichment, content generation, and assisted execution — modelled as explicit
+stages rather than one brittle prompt. Background work runs on Celery task
+queues so the API stays responsive while the slow, AI-heavy steps happen out
+of band.
+
+## Multi-model LLM integrations
+
+The AI layer integrates multiple LLM providers so model choice becomes a
+routing decision per task — quality, cost, and failure handling stay tunable
+independently. Orchestration is chained with LangChain and LangGraph, with
+structured output parsing keeping model responses reliable enough to act on
+downstream.

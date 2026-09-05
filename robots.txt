@@ -1,0 +1,77 @@
+User-Agent: *
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: GPTBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: OAI-SearchBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: ChatGPT-User
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: ClaudeBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Claude-SearchBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Claude-User
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: PerplexityBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Perplexity-User
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Google-Extended
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Applebot-Extended
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Amazonbot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: CCBot
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: Bytespider
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+User-Agent: meta-externalagent
+Allow: /
+Disallow: /keystatic
+Disallow: /api/
+
+Host: https://hasib105.github.io
+Sitemap: https://hasib105.github.io/sitemap.xml
