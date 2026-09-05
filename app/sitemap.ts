@@ -5,6 +5,8 @@ import { getAllWork } from "@/lib/content/work";
 import { getAllPosts } from "@/lib/content/blog";
 import { absoluteUrl } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 function contentMtime(dir: string, slug: string): Date {
   try {
     return fs.statSync(

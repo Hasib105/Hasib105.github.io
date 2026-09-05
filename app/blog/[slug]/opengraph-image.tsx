@@ -4,6 +4,7 @@ import { ACCENT_HEX } from "@/lib/accents";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
+export const dynamic = "force-static";
 export const alt = "Article — Hasib Ahmad Bhuyan";
 
 export function generateStaticParams() {

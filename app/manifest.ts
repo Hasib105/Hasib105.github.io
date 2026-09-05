@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { siteSettings } from "@/lib/content/settings";
 
+export const dynamic = "force-static";
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteSettings.title,

@@ -2,6 +2,7 @@ import { renderOgImage, OG_SIZE } from "@/lib/og";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
+export const dynamic = "force-static";
 export const alt = "Hasib Ahmad Bhuyan — Backend Engineer & Tech Lead, Agentic AI";
 
 export default function OgImage() {

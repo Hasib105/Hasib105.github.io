@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 // AI crawlers are explicitly welcome — this is a personal-brand site and
 // /llms.txt + the .md alternates exist precisely for them.
 const AI_CRAWLERS = [

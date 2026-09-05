@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "node scripts/validate-content.mjs && next build",
+    "deploy": "pnpm run build && cd out && git init && git checkout -B gh-pages && git add -A && git commit -m 'deploy: static export build' && git remote add origin https://github.com/Hasib105/Hasib105.github.io.git && git push -f origin gh-pages",
     "start": "next start",
     "lint": "eslint .",
     "validate:content": "node scripts/validate-content.mjs"
