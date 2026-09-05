@@ -1,0 +1,25 @@
+{
+  "heading": "From systems design to production automation.",
+  "items": [
+    {
+      "title": "Multi-agent systems & autonomous orchestration",
+      "description": "Agent workflows that survive contact with production — LLM orchestration, supervisor–worker routing, stateful PostgreSQL checkpointers, Qdrant vector retrieval, and human-in-the-loop checkpoints.",
+      "tags": ["LangGraph", "CrewAI", "Qdrant", "Multi-agent"]
+    },
+    {
+      "title": "Go systems & CLI infrastructure",
+      "description": "High-concurrency daemons, network collectors, and developer tooling — native Go CLI applications, OpenSSH config generators, Ed25519 cryptography, and OS credential vault integrations.",
+      "tags": ["Go", "OpenSSH", "Concurrency", "CLI Tooling"]
+    },
+    {
+      "title": "Real-time speech AI & media pipelines",
+      "description": "Low-latency continuous audio and video workflows — Faster-Whisper streaming over WebSockets, automated video and reel synthesis (Remotion, FFmpeg), and OpenCV computer vision models.",
+      "tags": ["Faster-Whisper", "WebSockets", "Remotion", "OpenCV"]
+    },
+    {
+      "title": "Distributed Python backends & APIs",
+      "description": "Maintainable, production-ready microservices that scale — FastAPI, Django, Django Ninja, Celery distributed task queues, async I/O, on PostgreSQL and Redis.",
+      "tags": ["FastAPI", "Django Ninja", "Celery", "PostgreSQL"]
+    }
+  ]
+}

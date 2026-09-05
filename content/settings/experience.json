@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "organization": "Autonomous AI & Multi-Agent Systems",
+      "url": "",
+      "location": "Production Systems",
+      "role": "Lead Architect & Systems Engineer",
+      "start": "2025",
+      "end": "Present",
+      "current": true,
+      "highlights": [
+        "Architected enterprise multi-agent control planes with LangGraph, LangChain, and Groq featuring stateful PostgreSQL checkpointers, sentiment analysis, and intent routing.",
+        "Built Slack-integrated autonomous agent automation platforms featuring OpenSearch RAG, AWS Aurora connection pooling, and PII masking.",
+        "Designed human-in-the-loop approval checkpoints for high-impact autonomous actions like refund authorization and external email dispatch.",
+        "Self-hosted and integrated open-source Hermes LLMs into automated content discovery and scheduling pipelines."
+      ]
+    },
+    {
+      "organization": "High-Performance Go Systems & Tooling",
+      "url": "",
+      "location": "Systems & CLI",
+      "role": "Go Systems Developer",
+      "start": "2024",
+      "end": "Present",
+      "current": false,
+      "highlights": [
+        "Built tassh: an OpenSSH key management CLI written in Go leveraging golang.org/x/crypto/ssh, Ed25519 cryptography, OS keychain credential storage, and modular SSH dialing.",
+        "Engineered Lead Scout: an automated market signal discovery daemon in Go 1.25 with concurrent collectors, Reddit/HN pipelines, NVIDIA LLM scoring, and PostgreSQL.",
+        "Developed high-concurrency network verification and email deliverability services in Go with native connection pooling and low-overhead memory footprint."
+      ]
+    },
+    {
+      "organization": "Real-Time Audio, Speech & Vision AI",
+      "url": "",
+      "location": "Streaming & ML",
+      "role": "Applied ML & Streaming Engineer",
+      "start": "2024",
+      "end": "2025",
+      "current": false,
+      "highlights": [
+        "Architected LiveWhisper: a real-time, low-latency speech transcription engine with Faster-Whisper (CTranslate2 INT8 CPU inference) over bidirectional WebSockets.",
+        "Developed automated reel synthesis pipelines in Python combining Remotion, TTS speech synthesis, multi-track audio mixing, and FFmpeg video compositing.",
+        "Implemented biometric image classification and feature extraction using Deep Convolutional Neural Networks (VGG) and OpenCV image preprocessing."
+      ]
+    },
+    {
+      "organization": "Distributed Python Backend & API Platforms",
+      "url": "",
+      "location": "Backend Platforms",
+      "role": "Python Backend Engineer",
+      "start": "2023",
+      "end": "2025",
+      "current": false,
+      "highlights": [
+        "Architected scalable backend microservices using FastAPI, Django, and Django Ninja with strict validation via Pydantic v2 and JWT authentication.",
+        "Designed asynchronous task architectures using Celery workers and Redis message brokers for long-running workflows, webhooks, and third-party integrations.",
+        "Built real-time production tracking systems with predictive bottleneck analytics and floor event telemetry on PostgreSQL and Redis."
+      ]
+    }
+  ]
+}

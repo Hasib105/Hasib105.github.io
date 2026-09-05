@@ -1,0 +1,22 @@
+{
+  "name": "Hasib Ahmad Bhuyan",
+  "role": "Python & Go Systems Engineer — Agentic AI & Distributed Systems",
+  "email": "hasibahmed1729@gmail.com",
+  "location": "Uttara, Dhaka, Bangladesh",
+  "locationShort": "Dhaka, BD — Remote",
+  "timezone": "Asia/Dhaka",
+  "availability": "Open to select projects & conversations",
+  "summary": "Software Engineer specializing in scalable API platforms, distributed microservices, and production-grade Agentic AI systems. I build multi-agent workflows, LLM orchestration layers, Computer Vision models, and real-time audio pipelines — in Python (FastAPI, Django, Asyncio) and Go. I engineer autonomous agent labs, low-latency WebSocket speech streaming (Faster-Whisper), automated media synthesis, and systems tooling (OpenSSH/CLI). I own architecture decisions, build for reliability, and ship at speed.",
+  "socials": [
+    {
+      "label": "GitHub",
+      "username": "Hasib105",
+      "href": "https://github.com/Hasib105"
+    },
+    {
+      "label": "LinkedIn",
+      "username": "hasib-ahmed",
+      "href": "https://www.linkedin.com/in/hasib-ahmed-517994199/"
+    }
+  ]
+}

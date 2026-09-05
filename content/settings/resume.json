@@ -1,0 +1,44 @@
+{
+  "pdfPath": "/resume/hasib-ahmad-bhuyan-resume.pdf",
+  "headline": "Python & Go Systems Engineer — Agentic AI & Distributed Systems",
+  "education": [
+    {
+      "degree": "B.Sc. in Software Engineering",
+      "institution": "Daffodil International University",
+      "location": "Dhaka, Bangladesh",
+      "start": "Sep 2020",
+      "end": "Jun 2024",
+      "note": ""
+    },
+    {
+      "degree": "Higher Secondary Certificate — Science",
+      "institution": "Uttara High School and College",
+      "location": "Dhaka, Bangladesh",
+      "start": "Jun 2017",
+      "end": "May 2019",
+      "note": ""
+    }
+  ],
+  "languages": [
+    { "language": "English", "level": "Professional proficiency" },
+    { "language": "Bangla", "level": "Native speaker" }
+  ],
+  "faq": [
+    {
+      "question": "Who is Hasib Ahmad Bhuyan?",
+      "answer": "Hasib Ahmad Bhuyan is a Software Engineer specializing in scalable API platforms, distributed microservices, and production-grade Agentic AI systems. He is based in Uttara, Dhaka, Bangladesh, and builds in Python (FastAPI, Django, Asyncio) and Go."
+    },
+    {
+      "question": "What does Hasib specialize in?",
+      "answer": "Agentic AI, distributed systems, and real-time pipelines — multi-agent systems with LangGraph and CrewAI, RAG and vector search (Qdrant, Redis, PostgreSQL), low-latency speech streaming (Faster-Whisper), Computer Vision (OpenCV, YOLO), and systems tooling in Go."
+    },
+    {
+      "question": "What has Hasib built?",
+      "answer": "Real-time conversational meeting copilots (The Noruva AI Assistant), guided legal automation backends (Torii Immigration), AI-powered video review and academic integrity platforms (Sightline), agent-ready search APIs (SailorSearch), sales automation SaaS platforms (Oppora.ai), and production monitoring telemetry systems."
+    },
+    {
+      "question": "How can I contact Hasib?",
+      "answer": "Email hasibahmed1729@gmail.com, visit hasib.tech, or find him on GitHub as Hasib105 and on LinkedIn."
+    }
+  ]
+}

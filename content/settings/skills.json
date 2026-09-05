@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "category": "Agentic AI & LLMs",
+      "skills": [
+        "LangGraph",
+        "CrewAI",
+        "LangChain",
+        "Groq",
+        "OpenAI API",
+        "RAG",
+        "Qdrant",
+        "Pinecone",
+        "Milvus",
+        "Tool Calling",
+        "Stateful Checkpointers",
+        "Hermes Agent"
+      ]
+    },
+    {
+      "category": "Languages & Systems",
+      "skills": [
+        "Python",
+        "Go",
+        "SQL",
+        "TypeScript",
+        "Bash",
+        "Async I/O",
+        "Concurrency",
+        "OpenSSH Protocols"
+      ]
+    },
+    {
+      "category": "Backend Frameworks & Architecture",
+      "skills": [
+        "FastAPI",
+        "Django",
+        "Django Ninja",
+        "Django REST Framework",
+        "Go Fiber",
+        "Celery",
+        "Redis",
+        "WebSockets",
+        "Pydantic v2",
+        "Microservices"
+      ]
+    },
+    {
+      "category": "Speech, Vision & Media",
+      "skills": [
+        "Faster-Whisper",
+        "CTranslate2",
+        "TTS (Speech Synthesis)",
+        "OpenCV",
+        "YOLO",
+        "PyTorch",
+        "Transformers",
+        "FFmpeg",
+        "Remotion",
+        "Audio Mixing"
+      ]
+    },
+    {
+      "category": "Data & DevOps",
+      "skills": [
+        "PostgreSQL",
+        "SQLite",
+        "Docker",
+        "Docker Compose",
+        "Linux",
+        "Nginx",
+        "GitHub Actions",
+        "Pytest",
+        "Git"
+      ]
+    }
+  ]
+}
