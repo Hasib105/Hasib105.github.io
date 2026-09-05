@@ -42,14 +42,14 @@ export function Hero() {
           <PillButton href="#about" variant="ghost">
             About Me
           </PillButton>
-          <a
+          {/* <a
             href={resumeSettings.pdfPath}
             target="_blank"
             rel="noopener noreferrer"
             className="mono-label border-line hover:border-accent text-ink hover:text-accent rounded-full border px-6 py-3 text-xs transition-colors duration-300"
           >
             Resume PDF ↗
-          </a>
+          </a> */}
         </div>
       </div>
 

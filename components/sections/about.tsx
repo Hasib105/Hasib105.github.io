@@ -71,14 +71,14 @@ export function About() {
                 <PillButton href={`mailto:${profileSettings.email}`} variant="filled">
                   Get in touch
                 </PillButton>
-                <a
+                {/* <a
                   href={resumeSettings.pdfPath}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mono-label border-line hover:border-accent text-ink hover:text-accent inline-flex items-center rounded-full border px-6 py-3 text-xs transition-colors duration-300"
                 >
                   Resume PDF ↗
-                </a>
+                </a> */}
               </div>
             </Reveal>
           </div>
@@ -94,6 +94,8 @@ export function About() {
               />
             </div>
 
+            {/* Resume section: Education & Languages (commented out) */}
+            {/*
             <div className="border-line-faint bg-raise/50 divide-line-faint divide-y rounded-2xl border p-6 backdrop-blur-sm">
               <div className="pb-4">
                 <span className="mono-label text-ink-faint text-xs">Education</span>
@@ -120,13 +122,14 @@ export function About() {
                   ))}
                 </div>
               </div>
+            </div>
+            */}
 
-              <div className="pt-4">
-                <span className="mono-label text-ink-faint text-xs">Location & Status</span>
-                <p className="mono-body text-ink text-xs mt-1">
-                  {profileSettings.location} · <span className="text-accent">Available for remote</span>
-                </p>
-              </div>
+            <div className="border-line-faint bg-raise/50 rounded-2xl border p-5 backdrop-blur-sm">
+              <span className="mono-label text-ink-faint text-xs">Location & Status</span>
+              <p className="mono-body text-ink text-xs mt-1">
+                {profileSettings.location} · <span className="text-accent">Available for remote</span>
+              </p>
             </div>
           </Reveal>
         </div>

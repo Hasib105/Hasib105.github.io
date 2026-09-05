@@ -29,14 +29,14 @@ export function ContactCta() {
               {social.label} ↗
             </a>
           ))}
-          <a
+          {/* <a
             href="/resume/hasib-ahmad-bhuyan-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mono-label text-accent hover:text-ink transition-colors"
           >
             Resume PDF ↗
-          </a>
+          </a> */}
         </div>
       </Reveal>
 
