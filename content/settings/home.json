@@ -1,19 +1,19 @@
 {
-  "heroKicker": "Python & Go Systems Engineer — Agentic AI & Applied ML",
-  "heroLines": ["Agentic AI,", "engineered into", "real automation."],
-  "heroSub": "Multi-agent workflows, LLM orchestration, Computer Vision pipelines, and real-time audio systems — built on scalable Python and Go backends that turn AI capabilities into production-ready platforms that actually ship.",
-  "primaryCta": { "label": "Selected work", "href": "#work" },
-  "secondaryCta": { "label": "Get in touch", "href": "#contact" },
+  "heroKicker": "Python Software Engineer & Applied AI/ML Developer",
+  "heroLines": ["Backend Systems,", "Computer Vision &", "Applied AI."],
+  "heroSub": "I bridge the gap between production software engineering and applied machine learning — developing scalable microservices with FastAPI & Django, implementing real-time vision pipelines with OpenCV & YOLO, deploying Transformers, and orchestrating stateful Agentic workflows & Speech AI (TTS/STT).",
+  "primaryCta": { "label": "Featured projects", "href": "#projects" },
+  "secondaryCta": { "label": "Connect", "href": "#contact" },
   "builtKicker": "How I build",
   "builtHeadline": "Built for production.",
   "builtBody": "Systems designed to be operated, not just demoed — owned architecture, maintainable backends, and AI workflows that hold up under real load and real business needs.",
   "builtMeta": [
-    { "label": "Core Focus", "value": "Python · Go · Agentic AI · Speech & Vision" },
+    { "label": "Core Focus", "value": "Python · Computer Vision · Agentic AI · Speech (TTS/STT)" },
     {
       "label": "Foundation",
-      "value": "FastAPI · Django · Go Fiber · LangGraph · Redis"
+      "value": "FastAPI · Django · OpenCV · YOLO · PyTorch · Redis"
     }
   ],
-  "contactHeadline": "Let's put AI to work.",
-  "contactBody": "If you're building something where AI has to actually ship — an agent layer, an automation pipeline, or a high-concurrency backend platform — I'd like to hear about it."
+  "contactHeadline": "Let's Connect & Collaborate.",
+  "contactBody": "I'm always keen to connect on Python backend engineering, Computer Vision & ML systems, Speech AI (TTS/STT), and autonomous AI agents."
 }

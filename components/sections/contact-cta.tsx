@@ -5,6 +5,7 @@ import { homeSettings, profileSettings } from "@/lib/content/settings";
 export function ContactCta() {
   return (
     <section id="contact" className="relative scroll-mt-24 overflow-hidden">
+      <div id="connect" className="absolute -top-24" />
       <Reveal className="relative z-20 mx-auto flex max-w-[1440px] flex-col items-center px-5 pt-24 pb-10 text-center md:px-10 md:pt-36">
         <h2 className="type-mega text-ink">{homeSettings.contactHeadline}</h2>
         <p className="mono-body text-ink-dim mt-8 max-w-lg">
@@ -16,7 +17,7 @@ export function ContactCta() {
         >
           {profileSettings.email}
         </a>
-        <div className="mt-8 flex gap-6">
+        <div className="mt-8 flex flex-wrap justify-center gap-6">
           {profileSettings.socials.map((social) => (
             <a
               key={social.href}
@@ -28,6 +29,14 @@ export function ContactCta() {
               {social.label} ↗
             </a>
           ))}
+          <a
+            href="/resume/hasib-ahmad-bhuyan-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mono-label text-accent hover:text-ink transition-colors"
+          >
+            Resume PDF ↗
+          </a>
         </div>
       </Reveal>
 
