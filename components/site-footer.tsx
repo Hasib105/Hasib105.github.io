@@ -20,15 +20,20 @@ export function SiteFooter() {
           aria-label="Footer"
           className="flex flex-wrap items-center gap-x-7 gap-y-3"
         >
-          {navigationSettings.items.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="mono-label text-ink-dim hover:text-ink transition-colors"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navigationSettings.items.map((item) => {
+            const isPdf = item.href.endsWith(".pdf");
+            return (
+              <a
+                key={item.href}
+                href={item.href}
+                target={isPdf ? "_blank" : undefined}
+                rel={isPdf ? "noopener noreferrer" : undefined}
+                className="mono-label text-ink-dim hover:text-ink transition-colors"
+              >
+                {item.label}
+              </a>
+            );
+          })}
           {profileSettings.socials.map((social) => (
             <a
               key={social.href}

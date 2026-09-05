@@ -1,7 +1,7 @@
 import { SceneView } from "@/components/three/scene-view";
 import { PillButton } from "@/components/ui/pill-button";
 import { LocalTime } from "@/components/local-time";
-import { homeSettings, profileSettings } from "@/lib/content/settings";
+import { homeSettings, profileSettings, resumeSettings } from "@/lib/content/settings";
 
 export function Hero() {
   return (
@@ -36,12 +36,20 @@ export function Hero() {
           {homeSettings.heroSub}
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <PillButton href={homeSettings.primaryCta.href} variant="filled">
-            {homeSettings.primaryCta.label}
+          <PillButton href="#work" variant="filled">
+            View Projects
           </PillButton>
-          <PillButton href={homeSettings.secondaryCta.href} variant="ghost">
-            {homeSettings.secondaryCta.label}
+          <PillButton href="#about" variant="ghost">
+            About Me
           </PillButton>
+          <a
+            href={resumeSettings.pdfPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mono-label border-line hover:border-accent text-ink hover:text-accent rounded-full border px-6 py-3 text-xs transition-colors duration-300"
+          >
+            Resume PDF ↗
+          </a>
         </div>
       </div>
 

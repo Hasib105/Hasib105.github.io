@@ -4,7 +4,7 @@ import { capabilitiesSettings } from "@/lib/content/settings";
 
 export function Capabilities() {
   return (
-    <section className="relative overflow-hidden">
+    <section id="capabilities" className="relative scroll-mt-24 overflow-hidden">
       <div className="relative z-20 mx-auto grid max-w-[1440px] items-center gap-14 px-5 py-24 md:px-10 md:py-36 lg:grid-cols-[1.1fr_1fr] lg:gap-24">
         <Reveal>
           <MicroLabel as="h2" className="mb-6">

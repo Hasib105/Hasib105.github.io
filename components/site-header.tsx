@@ -35,18 +35,32 @@ export function SiteHeader({
       <div className="relative mx-auto flex max-w-[1440px] items-center justify-between px-5 py-5 md:px-10 md:py-6">
         <Logo />
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
-          {items.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                "mono-label hover:text-ink transition-colors duration-300",
-                pathname === item.href ? "text-ink" : "text-ink-dim"
-              )}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {items.map((item) => {
+            const isPdf = item.href.endsWith(".pdf");
+            const isExternal = item.href.startsWith("http");
+            if (isPdf || isExternal) {
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mono-label hover:text-ink text-ink-dim transition-colors duration-300"
+                >
+                  {item.label} ↗
+                </a>
+              );
+            }
+            return (
+              <a
+                key={item.href}
+                href={item.href}
+                className="mono-label hover:text-ink text-ink-dim transition-colors duration-300"
+              >
+                {item.label}
+              </a>
+            );
+          })}
           <a
             href={`mailto:${contactEmail}`}
             className="mono-label pill-filled rounded-full px-5 py-2.5"
@@ -76,22 +90,30 @@ export function SiteHeader({
         )}
       >
         <nav aria-label="Mobile" className="flex flex-col gap-2">
-          {items.map((item, i) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                "type-title text-ink py-2 transition-all duration-500",
-                open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-              )}
-              style={{ transitionDelay: open ? `${80 + i * 60}ms` : "0ms" }}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {items.map((item, i) => {
+            const isPdf = item.href.endsWith(".pdf");
+            const isExternal = item.href.startsWith("http");
+            return (
+              <a
+                key={item.href}
+                href={item.href}
+                target={isPdf || isExternal ? "_blank" : undefined}
+                rel={isPdf || isExternal ? "noopener noreferrer" : undefined}
+                onClick={() => setOpen(false)}
+                className={cn(
+                  "type-title text-ink py-2 transition-all duration-500",
+                  open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                )}
+                style={{ transitionDelay: open ? `${80 + i * 60}ms` : "0ms" }}
+              >
+                {item.label} {isPdf ? "↗" : ""}
+              </a>
+            );
+          })}
         </nav>
         <a
           href={`mailto:${contactEmail}`}
+          onClick={() => setOpen(false)}
           className={cn(
             "mono-label pill-filled inline-flex w-fit rounded-full px-6 py-3 transition-all duration-500",
             open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
